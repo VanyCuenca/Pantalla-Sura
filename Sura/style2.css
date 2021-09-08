@@ -1,0 +1,112 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    margin: 1%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body{
+    /* background-color: gray; */
+    font-family: "Inv Maison Neue","Maison Neue",-apple-system,BlinkMacSystemFont,"Open Sans",open-sans,sans-serif;
+    font-size: 12px;
+    color: #9ca4ab;
+}
+
+.h2{
+    color:whitesmoke;
+}
+
+.navbar-home{
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: #1B1E40;
+    background-color: #1B1E40;
+}
+.navbar-home a {
+    color: white;
+    text-decoration: none;
+}
+.container-nav {
+    
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.container-fluid form-check {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 1%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+h2, .text-secondary {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.tabla-responsive {
+    border-style: solid;
+    border-color: gray;
+    box-shadow: 1px 1px 23px 2px rgb(37, 1, 46);
+    opacity: 2.1;
+}
+
+.payment-container {
+    display: flex;
+    border-style: solid;
+    border-color: grey;
+    flex-direction: column;
+    box-shadow: 1px 1px 23px 2px rgb(37, 1, 46);
+    opacity: 2.1;
+}
+
+.payment-title {
+    border-style: solid;
+    border-color: grey;
+}
+
+.bank-form {
+    width: 40%;
+    height: 40%;
+    border-style: solid;
+    border-color: wheat;
+}
+
+.bank-img {
+    width: 50%;
+    height: 50%;
+}
+.container-pago{
+    width:15%;
+    margin:10% 50%;
+    padding:20%;
+    color:#000;
+}
+
+.form-check{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 1%;
+}
+
+.form-check-label{
+    align-items: center;
+    top: 3%;
+}
